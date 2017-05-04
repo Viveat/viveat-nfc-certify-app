@@ -1,0 +1,8 @@
+<template name="nfcReader">
+  {{# if nfcEnabled }}
+    <h3>Avvicina il device all'etichetta NFC Viveat.</h3>
+    {{nfcValue}}
+  {{ else }}
+    <h3>Abilita il lettore NFC sul device.</h3>
+  {{/if}}
+</template>
